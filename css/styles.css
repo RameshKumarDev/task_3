@@ -1,0 +1,90 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	font-family: 'Roboto Slab', serif;
+}
+.container1 table,.container1 tr,.container1 td{
+	/* border:1px solid black; */
+	border-collapse:collapse;
+	}
+.container1 table{
+	margin:20px auto;
+	width:370px;
+	height:400px;
+	
+}
+.container1{
+	/* border:1px solid lightgray; */
+	margin:10px auto;
+	width:400px;
+	/* background-color:MintCream ; */
+	box-shadow:0px 5px 10px gray;
+}
+.image1{
+	width:380px;
+	margin:10px;
+}
+.first-image-cell{
+	height:10px; 
+	position:relative;
+}
+.image2{
+	height:40px;
+	width:40px;
+	border-radius:50%;
+	margin-left:9px;
+	margin-right:5px;
+}
+td{
+	margin:0;
+	padding:0;
+}
+.color{
+	color:gold;
+	margin-left:5px;
+}
+.bottom-text{
+	padding-left:12px;
+	line-height:1.8;
+	word-spacing:4px;
+}
+.image-cell{
+	padding-right:0;
+	margin:0;
+	width:55px;
+
+}
+.like-button{
+	background-color:DarkGray ;
+	border-radius:50%;
+	width:30px;
+	height:30px;
+	text-align:center;
+	border:none;
+	position:absolute;
+	top: 40px;
+    right: 25px;
+}
+.heart{
+	color:white;
+	
+}
+.like-button:focus .heart{
+	color:OrangeRed ;
+	}
+.like-button:focus{background-color:white ;}
+.until-button{
+	border:none;
+	background-color:DarkOrange ;
+	color:white;
+	width:100px;
+	height:30px;
+	position:absolute;
+	top: 40px;
+    left: 10px;
+}
+.rating{
+	text-align:right;
+	padding-right:15px;
+	color:grey;
+}
